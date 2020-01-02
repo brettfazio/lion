@@ -1,4 +1,5 @@
 import { IContainer, IMessage, IHandler } from '../common/types';
+import { DMChannel } from 'discord.js';
 
 export class Listener {
   private _handlers: IHandler[] = [];
